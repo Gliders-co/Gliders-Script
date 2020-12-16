@@ -17,5 +17,5 @@ import Gliders from './Fetch';
   }
 }
   
-  document.body.appendChild(GlidersScript.init());
+  //document.body.appendChild(GlidersScript.init());
   
