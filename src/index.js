@@ -1,6 +1,6 @@
 import Gliders from './Fetch';
 
- export const GlidersScript = { init : async function(componentId, apiKey) {
+ export default GlidersScript = { init : async function(componentId, apiKey) {
 
     let data = await Gliders(componentId,apiKey);
  
@@ -17,5 +17,6 @@ import Gliders from './Fetch';
   }
 }
   
+
   //document.body.appendChild(GlidersScript.init());
   
