@@ -1,12 +1,12 @@
 {
-  "name": "webpack-demo",
+  "name": "gliders-demo",
   "version": "1.0.0",
   "description": "",
-  "main":"./dist/main.js",
+  "main": "./dist/main.js",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack "
   },
   "keywords": [],
   "author": "",
@@ -16,7 +16,6 @@
     "webpack-cli": "^4.2.0"
   },
   "dependencies": {
-    "axios": "^0.21.0",
-    "lodash": "^4.17.20"
+    "axios": "^0.21.0"
   }
 }
