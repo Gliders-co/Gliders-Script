@@ -2,7 +2,7 @@ import { getList, getCountry} from './api';
 
 const Gliders = (componentId, apiKey) =>{
  // const url = `http://ec2-3-88-66-129.compute-1.amazonaws.com:8001/api/user/${componentId}`
- const url = `http://localhost:8001/api/user/${componentId}`
+ const url = `http://ec2-52-55-89-249.compute-1.amazonaws.com:8001/api/user/${componentId}`
   const requestUrl = "http://ip-api.com/json";
   const response=[];
   let country =   getCountry(requestUrl)
